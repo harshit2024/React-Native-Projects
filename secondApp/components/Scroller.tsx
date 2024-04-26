@@ -1,6 +1,6 @@
-import { ScrollView, StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import FlatCards from './FlatCards'
+/* eslint-disable prettier/prettier */
+import { ScrollView, StyleSheet, Text, View } from "react-native";
+import React from "react";
 
 export default function Scroller() {
     return (
@@ -22,29 +22,28 @@ export default function Scroller() {
                 <View style={[styles.card, styles.elevatedCard]}>
                     <Text>Card 5</Text>
                 </View>
-
             </ScrollView>
         </View>
-    )
+    );
 }
 
 const styles = StyleSheet.create({
     header: {
         fontSize: 20,
-        fontWeight: 'bold',
+        fontWeight: "bold",
         marginLeft: 15,
     },
     card: {
         width: 100,
         height: 100,
-        justifyContent: 'center',
-        alignItems: 'center',
+        justifyContent: "center",
+        alignItems: "center",
         margin: 15,
-
+        marginBottom: 0,
     },
     elevatedCard: {
-        backgroundColor: '#FFC3A0',
-        shadowColor: '#000',
+        backgroundColor: "#FFC3A0",
+        shadowColor: "#000",
         shadowOffset: {
             width: 1,
             height: 1,
@@ -52,5 +51,5 @@ const styles = StyleSheet.create({
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
         elevation: 5,
-    }
-})
+    },
+});

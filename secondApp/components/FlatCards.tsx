@@ -1,5 +1,6 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+/* eslint-disable prettier/prettier */
+import { StyleSheet, Text, View } from "react-native";
+import React from "react";
 
 export default function FlatCards() {
     return (
@@ -17,44 +18,44 @@ export default function FlatCards() {
                 </View>
             </View>
         </View>
-    )
+    );
 }
 
 const styles = StyleSheet.create({
     text: {
         fontSize: 20,
-        fontWeight: 'bold',
+        fontWeight: "bold",
         marginTop: 20,
-        paddingLeft: 15
+        paddingLeft: 15,
     },
     container: {
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        padding: 15
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-between",
+        padding: 15,
     },
     cardOne: {
-        backgroundColor: '#FFC3A0',
+        backgroundColor: "#FFC3A0",
         width: 100,
         height: 100,
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
     },
     cardTwo: {
-        backgroundColor: '#C0D6E4',
+        backgroundColor: "#C0D6E4",
         width: 100,
         height: 100,
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
     },
     cardThree: {
-        backgroundColor: '#66CDAA',
+        backgroundColor: "#66CDAA",
         width: 100,
         height: 100,
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center'
-    }
-})
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+    },
+});
