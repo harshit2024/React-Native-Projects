@@ -6,6 +6,7 @@ import FlatCards from "./components/FlatCards";
 import Scroller from "./components/Scroller";
 import FancyCard from "./components/FancyCard";
 import ActionCard from './components/ActionCard';
+import IterationInData from './components/IterationInData';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <FlatCards />
         <Scroller />
         <FancyCard />
+        <IterationInData />
         <ActionCard />
       </ScrollView>
     </View>

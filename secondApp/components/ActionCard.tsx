@@ -36,7 +36,7 @@ export default function ActionCard() {
             </View>
 
         </View>
-    )
+    );
 }
 
 const styles = StyleSheet.create({
